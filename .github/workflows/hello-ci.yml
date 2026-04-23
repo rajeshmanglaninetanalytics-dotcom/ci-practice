@@ -8,5 +8,5 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Force failure
-        run: exit 1
+      - name: Fix CI
+        run: echo "Hello from Raj"
